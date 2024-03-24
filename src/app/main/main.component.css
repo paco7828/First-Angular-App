@@ -1,0 +1,45 @@
+main {
+    height: 60%;
+    width: 80%;
+    background-color: mediumblue;
+}
+
+main h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+main .jaratok {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    place-items: center;
+    row-gap: 10px;
+}
+
+main .jaratok p {
+    font-size: 20px;
+    color: white;
+    border-top: 1px solid;
+    transition: all 0.3s;
+}
+
+main button {
+    width: 300px;
+    height: 50px;
+    transform: translate(600px, 40px);
+    border-radius: 24px;
+    outline: none;
+    border: 3px solid;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+main button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}

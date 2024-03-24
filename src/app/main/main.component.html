@@ -1,0 +1,9 @@
+<main>
+    <h1>Elérhető járatok</h1>
+    <div class="jaratok">
+        @for(jaratSzam of jaratSzamok; track jaratSzam){
+        <p>{{jaratSzam}}</p>
+        }
+    </div>
+    <button (click)="randomJarat()">Random járat kiválasztása</button>
+</main>

@@ -1,0 +1,8 @@
+<aside (mouseover)="adAnimation()">
+    <h1>Reklámok</h1>
+    <div class="ad-div">
+        @for(ad of adSrcs; track ad){
+        <img (click)="visitImgLink(ad)" src="{{ad}}" alt="{{$index}}">
+        }
+    </div>
+</aside>

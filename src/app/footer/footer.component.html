@@ -1,0 +1,9 @@
+<footer>
+    <h1>Eredeti oldal:</h1>
+    <img (click)="visitRealSite()" src="https://mobilitas.biokom.hu/img/biokom_csak.png" alt="biokom">
+    <div class="footer-links">
+        @for(link of footerLinks; track link){
+        <a href="#">{{link}}</a>
+        }
+    </div>
+</footer>
